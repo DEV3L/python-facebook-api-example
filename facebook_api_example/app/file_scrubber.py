@@ -28,6 +28,7 @@ class FileScrubber():
             for item in self.lines_set:
                 file_handler.write('{}'.format(item))
 
+
 if __name__ == "__main__":
     file_scrubber = FileScrubber('../taylor_swift_all_lyrics.txt')
     file_scrubber.scrub_file()
