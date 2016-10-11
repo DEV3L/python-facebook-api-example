@@ -12,7 +12,8 @@ setup(
     keywords=['dev3l', 'facebook', 'graph'],  # arbitrary keywords
     install_requires=[
         'pytest',
-        'facebook-sdk'
+        'facebook-sdk',
+        'ordered-set'
     ],
     classifiers=[
         'Environment :: Console',
